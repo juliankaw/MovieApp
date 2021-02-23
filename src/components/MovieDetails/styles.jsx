@@ -12,59 +12,58 @@ export const Container = styled.div`
 
 export const Plot = styled.div`
   max-width: 400px;
-  h4{
+  h4 {
     margin-bottom: 10px;
-   }
+  }
 `
 export const Title = styled.h2`
- font-size: 40px;
- max-width: 600px;
- margin-bottom: 30px;
+  font-size: 40px;
+  max-width: 600px;
+  margin-bottom: 30px;
 `
 export const Rating = styled.div`
- display: flex;
- align-items: center;
- margin-bottom: 30px;
- span{
-   display: block;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  span {
+    display: block;
     background-color: orange;
     color: black;
     padding: 3px;
     border-radius: 2px;
     letter-spacing: 0.2px;
     font-weight: bold;
- }
- div:nth-child(2){
-   border-top: 1px solid gray;
-   border-bottom: 1px solid gray;
-   border-right: 1px solid gray;
-   font-size: 14px;
-   padding: 3px;
-   border-radius: 2px;
-  margin-right: 10px;
- }
+  }
+  div:nth-child(2) {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    font-size: 14px;
+    padding: 3px;
+    border-radius: 2px;
+    margin-right: 10px;
+  }
 `
 export const CastContainer = styled.div`
- display: flex;
- flex-wrap: wrap;
- margin-top: 20px;
- div{
-   max-width: 152px;
-   margin-right: 30px;
-   h4{
-     margin-bottom: 10px;
-   }
- }
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  div {
+    max-width: 152px;
+    margin-right: 30px;
+    h4 {
+      margin-bottom: 10px;
+    }
+  }
 `
-
 
 export const Image = styled.div`
   max-width: 100%;
   order: 2;
-  img{
+  img {
     width: 300px;
     height: auto;
-    border-radius:3px;
+    border-radius: 3px;
   }
 `
 export const Button = styled.section`
@@ -73,7 +72,7 @@ export const Button = styled.section`
   border: 1px solid gray;
   padding: 2px;
   cursor: pointer;
-  p{
+  p {
     margin-left: 3px;
   }
 `

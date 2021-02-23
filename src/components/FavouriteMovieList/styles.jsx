@@ -16,10 +16,5 @@ export const Button = styled.button`
   display: block;
   cursor: pointer;
   max-width: 290px;
-  margin: auto
+  margin: auto;
 `
-
-
-
-
-

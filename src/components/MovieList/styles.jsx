@@ -4,19 +4,19 @@ export const Imagem = styled.img`
   border-radius: 2px;
 `
 export const Layer = styled.div`
-    background: rgba(0, 0, 0, 0.8);
-    position: absolute;
-    height: 99%;
-    width:100%;
-    top: 0;
-    right: 0px;
-    opacity:0;
-    transition: all .2s;
-    &:hover ${Imagem}{
-    transform: scale(1.5)
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  top: 0;
+  right: 0px;
+  opacity: 0;
+  transition: all 0.2s;
+  &:hover ${Imagem} {
+    transform: scale(1.5);
   }
-  section{
-    display:flex;
+  section {
+    display: flex;
     flex-direction: column;
     justify-content: flex-end;
     height: 100%;
@@ -27,21 +27,19 @@ export const Layer = styled.div`
     padding-bottom: 20px;
     padding-right: 10px;
     padding-left: 10px;
-    a{
+    a {
       text-decoration: none;
-      span{
+      span {
         font-size: 14px;
       }
     }
   }
 
-
-  p{
+  p {
     color: #fff;
   }
 
-  span{
+  span {
     color: #fff;
   }
-
 `
